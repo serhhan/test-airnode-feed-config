@@ -3122,9 +3122,19 @@
   },
   "signedApis": [
     {
+      "name": "Nodary",
+      "url": "https://signed-api.nodary.io",
+      "authToken": "${AUTH_TOKEN_NODARY}"
+    },
+    {
+      "name": "API3",
+      "url": "https://signed-api.api3.org",
+      "authToken": "${AUTH_TOKEN_API3}"
+    },
+    {
       "name": "Self",
-      "url": "https://${SELF_SIGNED_API_URL}",
-      "authToken": "${AUTH_TOKEN_SELF_SIGNED_API_URL}"
+      "url": "https://signed-api.serhan.me",
+      "authToken": "${AUTH_TOKEN_SELF}"
     }
   ],
   "ois": [
