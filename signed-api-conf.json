@@ -1,37 +1,29 @@
 {
   "endpoints": [
     {
-      "urlPath": "/real-time",
-      "authTokens": ["${REAL_TIME_ENDPOINT_AUTH_TOKEN}"],
-      "delaySeconds": 0,
-      "isOev": false
-    },
-    {
-      "urlPath": "/oev",
-      "authTokens": ["${OEV_ENDPOINT_AUTH_TOKEN}"],
+      "urlPath": "/public-oev",
+      "authTokens": null,
       "delaySeconds": 0,
       "isOev": true
     },
     {
       "urlPath": "/public",
       "authTokens": null,
-      "delaySeconds": 15,
-      "isOev": false
-    },
-    {
-      "urlPath": "/unsigned-real-time",
-      "authTokens": null,
-      "delaySeconds": 0,
-      "hideSignatures": true,
+      "delaySeconds": 60,
       "isOev": false
     }
   ],
   "allowedAirnodes": [
     {
       "address": "0x9Eda7Ff2DE9A0F64b3C0D33407bE354106dDbc94",
-      "authTokens": ["${AIRNODE_FEED_AUTH_TOKEN}"]
+      "authTokens": ["${AIRNODE_FEED_AUTH_TOKEN}"],
+      "isCertified": true
     }
   ],
-  "stage": "aws",
-  "version": "2.1.0"
+  "stage": "production",
+  "version": "3.2.0",
+  "cache": {
+    "type": "cdn",
+    "maxAgeSeconds": 1
+  }
 }
