@@ -1579,7 +1579,7 @@
   "endpoints": {
     "0x9a652a9d51aa35f09ffcd1b80e242dd704c3e8bc2050549bac326687537291b6": {
       "endpointName": "feed",
-      "oisTitle": "Blocksize"
+      "oisTitle": "SerhanTest"
     }
   },
   "triggers": {
