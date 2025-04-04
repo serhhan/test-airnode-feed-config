@@ -2541,7 +2541,7 @@
     },
     {
       "name": "Self",
-      "url": "https://signed-api.serhan.me",
+      "url": "http://signed-api.self.internal",
       "authToken": "${AUTH_TOKEN_SELF}"
     }
   ],
