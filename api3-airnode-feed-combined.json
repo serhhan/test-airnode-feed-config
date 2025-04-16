@@ -2541,7 +2541,7 @@
     },
     {
       "name": "Self",
-      "url": "http://signed-api.self.internal",
+      "url": "http://localhost:80",
       "authToken": "${AUTH_TOKEN_SELF}"
     }
   ],
