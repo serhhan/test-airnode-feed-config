@@ -3324,7 +3324,7 @@
       "authToken": "${AUTH_TOKEN_API3}"
     },
     {
-      "name": "Slef",
+      "name": "Self",
       "url": "https://signed-api.serhan.me",
       "authToken": "${AUTH_TOKEN_SELF}"
     }
